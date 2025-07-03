@@ -1,7 +1,8 @@
 import Test from "@/components/Test/page";
-import Navbar from "@/components/Navbar/page";
 import CategoryRow from "@/components/CategoryRow/page";
 import Hero from "@/components/Hero/page";
+import AboutUs from "./AboutUs/page";
+import Contact from "./Contact/page";
 import { Footer } from "@/components/Footer/page";
 import AuthGuard from "@/components/AuthGuard/page";
 
@@ -11,9 +12,10 @@ export default function Home() {
      {/* <Test/> */}
 
 <AuthGuard>
- <Navbar/>
 <CategoryRow /> 
  <Hero/>
+<AboutUs/>
+<Contact/>
  <Footer/>
 </AuthGuard>
  

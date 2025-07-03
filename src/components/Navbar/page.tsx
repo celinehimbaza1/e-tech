@@ -40,8 +40,8 @@ export default function Navbar() {
         {/* Navigation Links */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-700">
           <Link href="/" className="hover:text-gray-500">Home</Link>
-          <Link href="/about" className="hover:text-gray-500">About</Link>
-          <Link href="/contact" className="hover:text-gray-500">Contact</Link>
+          <Link href="/AboutUs" className="hover:text-gray-500">About</Link>
+          <Link href="/Contact" className="hover:text-gray-500">Contact</Link>
           <Link href="/blog" className="hover:text-gray-500">Blog</Link>
         </nav>
 
